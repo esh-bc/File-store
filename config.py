@@ -18,7 +18,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "30439917") or "0")
 PORT = int(os.environ.get("PORT", "8080") or "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "")))
+DB_URI = os.environ.get("DB_URI", os.environ.get("DB_URL", os.environ.get("DATABASE_URL", "mongodb+srv://Esh:1234567890ukwhat@cluster0.mnbnc7a.mongodb.net")))
 DB_NAME = os.environ.get("DB_NAME", "Unrated-LinkShare-Bot")
 
 #Auto approve 
@@ -39,19 +39,19 @@ START_MSG = os.environ.get("START_MSG", "<b>👋 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛ
 HELP = os.environ.get("HELP_MESSAGE", "<b>›› ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs:\n<blockquote>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ᴜᴘᴅᴀᴛᴇs: @Unrated-Coder\n├›› sᴜᴘᴘᴏʀᴛ: @Unrated-Coder\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Unrated_Coder\n╰━━━━━━━━━━━━━━━━━━━━━</blockquote></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @niro_og</b>\n<blockquote><b>╭━━━━━━━━━━━━━━━━━━━━━\n├›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3'>Pʏᴛʜᴏɴ 3.10</a>\n├›› ʟɪʙʀᴀʀʏ: <a href='https://www.mongodb.com/docs/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>\n├›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>\n├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @niro_og\n╰━━━━━━━━━━━━━━━━━━━━━</b></blockquote>")
 
-ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @Unrated_Coder</b>
+ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: @niro_x_community</b>
 <blockquote><b>╭━━━━━━━━━━━━━━━━━━━━━
 ├›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3'>Pʏᴛʜᴏɴ 3.10</a>
 ├›› ʟɪʙʀᴀʀʏ: <a href='https://www.mongodb.com/docs/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
 ├›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
-├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Unrated_Coder
+├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @niro_og
 ╰━━━━━━━━━━━━━━━━━━━━━</b></blockquote>""" 
 
 CHANNELS_TXT = """<b>›› ᴏғғɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟs:
 <blockquote>╭━━━━━━━━━━━━━━━━━━━━━
-├›› ᴜᴘᴅᴀᴛᴇs: @Unrated_Coder
-├›› sᴜᴘᴘᴏʀᴛ: @Unrated_Coder
-├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Unrated_Coder
+├›› ᴜᴘᴅᴀᴛᴇs: @niro_x_update
+├›› sᴜᴘᴘᴏʀᴛ: @niro_og_bot
+├›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @niro_og
 ╰━━━━━━━━━━━━━━━━━━━━━</blockquote></b>"""
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
