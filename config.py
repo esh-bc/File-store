@@ -10,11 +10,11 @@ load_dotenv()
 
 # Recommended
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8832316948:AAGr4eMGJL4aCCs3qb7IKboxa-NiKb50QG4")
-APP_ID = int(os.environ.get("APP_ID", os.environ.get("API_ID", "0")) or "0")
-API_HASH = os.environ.get("API_HASH", "")
+APP_ID = int(os.environ.get("APP_ID", os.environ.get("API_ID", "30439917")) or "0")
+API_HASH = os.environ.get("API_HASH", "4f408081dbb976a9943ada5b551288b7")
 
 # Main
-OWNER_ID = int(os.environ.get("OWNER_ID", "30439917") or "0")
+OWNER_ID = int(os.environ.get("OWNER_ID", "8189708860") or "0")
 PORT = int(os.environ.get("PORT", "8080") or "8080")
 
 # Database
